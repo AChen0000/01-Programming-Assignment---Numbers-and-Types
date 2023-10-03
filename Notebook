@@ -1,0 +1,27 @@
+#3.1
+secondsin1minute = 60
+minutesin1hour = 60
+secondsin1hour = secondsin1minute * minutesin1hour
+print(seconds_in_1_hour)
+
+#3.2
+secondsperhour = secondsin1hour
+print(secondsperhour)
+
+#3.3
+hoursin1day = 24
+secondsinaday = secondsperhour * hoursin1day
+print(secondsin1day)
+
+#3.4
+secondsperday = secondsin1day
+print(secondsperday)
+
+#3.5
+Firstsecondsperday = secondsperday / secondsperhour
+print(Finalsecondsperday)
+
+#3.6
+Secondsecondsperdayinteger = secondsperday // secondsperhour
+print(Secondssecondsperday)
+
